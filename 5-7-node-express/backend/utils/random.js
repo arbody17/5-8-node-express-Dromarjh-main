@@ -1,3 +1,4 @@
+// backend/utils/random.js
 export function getRandomInt(max) {
-  return {/*write code to here*/}
+  return Math.floor(Math.random() * max);
 }
